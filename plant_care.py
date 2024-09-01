@@ -9,8 +9,8 @@ import PyPDF2
 from langchain.llms import GooglePalm
 
 # Google PaLM API Key
-apikey = st.secrets[apikey]  # Replace with your actual Google PaLM API key
-
+# apikey = st.secrets[apikey]  # Replace with your actual Google PaLM API key
+apikey = "AIzaSyCWGkTI119Jf4T8fnbWi9DRGrwD4jpEBn4"
 # Initialize the PaLM LLM with LangChain
 llm = GooglePalm(google_api_key=apikey, temperature=0.2)
 
