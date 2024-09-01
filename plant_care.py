@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1sEzCF_x7fm_nzwDTws1C7v__BVSoNl1J
 """
 
-pip install streamlit groq gradio transformers torch
-
 import streamlit as st
 from transformers import AutoImageProcessor, AutoModelForImageClassification
 from PIL import Image
